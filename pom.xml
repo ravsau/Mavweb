@@ -38,7 +38,7 @@
 	<snapshotRepository>
 		<id>snapshots</id>
 		<name>snapshots</name>
-		<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://ec2-54-86-4-199.compute-1.amazonaws.com:8080/:8081/nexus/content/repositories/snapshots/</url>
 	</snapshotRepository>
 	</distributionManagement>
 </project>
