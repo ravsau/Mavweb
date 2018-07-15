@@ -6,6 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description></description>
 	<build>
+		
+		<configuration>
+          		<warName>hello.war</warName>
+        	</configuration>
                 <plugins>
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
