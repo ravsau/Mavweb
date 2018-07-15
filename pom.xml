@@ -7,9 +7,7 @@
 	<description></description>
 	<build>
 		
-		<configuration>
-          		<warName>hello.war</warName>
-        	</configuration>
+		
                 <plugins>
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
@@ -19,6 +17,9 @@
                                         <failOnMissingWebXml>false</failOnMissingWebXml>
                                         <source>1.5</source>
                                         <target>1.5</target>
+					
+          				<warName>hello.war</warName>
+        	
                                 </configuration>
                         </plugin>
 			<plugin>
