@@ -41,12 +41,12 @@
 	<repository>
 		<id>releaseRepo</id>
 		<name>releaseRepo</name>
-		<url>http://18.207.98.96:8081/repository/maven-releases/</url>
+		<url>http://18.207.98.96:8081/repository/releaseRepo/</url>
 	</repository>
 	<snapshotRepository>
 		<id>snapshotRepo</id>
 		<name>releaseRepo</name>
-		<url>http://18.207.98.96:8081/repository/snapshot/</url>
+		<url>http://18.207.98.96:8081/repository/snapshotRepo/</url>
 	</snapshotRepository>
 	</distributionManagement>
 </project>
