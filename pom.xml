@@ -39,13 +39,13 @@
 	</dependencies>
 	<distributionManagement>
 	<repository>
-		<id>releases</id>
-		<name>releases</name>
+		<id>releaseRepo</id>
+		<name>releaseRepo</name>
 		<url>http://18.207.98.96:8081/repository/maven-releases/</url>
 	</repository>
 	<snapshotRepository>
-		<id>snapshots</id>
-		<name>snapshots</name>
+		<id>snapshotRepo</id>
+		<name>releaseRepo</name>
 		<url>http://18.207.98.96:8081/repository/snapshot/</url>
 	</snapshotRepository>
 	</distributionManagement>
